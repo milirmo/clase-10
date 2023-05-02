@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 10</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>datos personales</legend>
+
+            <label>nombre</label>
+            <input type="text"><br>
+
+            <label>apellido</label>
+            <input type="text"><br>
+
+            <label>DNI</label>
+            <input type="number"><br>
+
+            <label>color favorito</label>
+            <input type="color"><br>
+
+            <label>fecha de nacimiento</label>
+            <input type="date"><br>
+
+            <label>genero</label><br>
+            <input type="radio">hombre<br>
+            <input type="radio">mujer<br>
+            <input type="radio">no binario<br>
+            <input type="radio">empanada de jamon y queso<br>
+
+            <label>materia favorita</label><br>
+            <input type="checkbox">coe<br>
+            <input type="checkbox">matematica<br>
+            <input type="checkbox">historia<br>
+            <input type="checkbox">ed fisica<br>
+            <input type="checkbox">talleres<br>
+
+            <label>comida favorita</label>
+            <select>
+                <option disabled selected>seleccione su comida favorita</option>
+                <option value="milanesas con pure">milanesas con pure</option>
+                <option value="hamburguesa con papas">hamburguesa con papas</option>
+                <option value="empanadas/pizza">empanadas/pizza</option>
+                <option value="ravioles con salsa">ravioles con salsa</option>
+                <option value="napolitana con papas">napolitana con papas</option>
+            </select>
+        </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>datos de contacto</legend>
+            <label>telefono</label>
+            <input type="number"><br>
+            <label>direccion</label>
+            <input type="text"><br>
+            <label>mail</label>
+            <input type="email">
+        </fieldset>
+        
+        <label>subir cv</label>
+        <input type="file"><br>
+        <input type="button" value="enviar" onclick="alert('formulario enviado.')"><br>
+    </form>
+</body>
+</html>
